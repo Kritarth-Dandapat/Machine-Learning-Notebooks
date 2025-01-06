@@ -6,36 +6,79 @@
     <title>Machine Learning Topics</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-        section {
-            margin: 2em;
-        }
-        h2 {
+            background-color: #f9f9f9;
             color: #333;
         }
+
+        /* Header Styling */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1.5em;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* Section and content styling */
+        section {
+            margin: 2em auto;
+            padding: 1em 2em;
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #4CAF50;
+            margin-bottom: 0.8em;
+            font-size: 1.8em;
+        }
+
         ul {
             list-style-type: none;
+            padding: 0;
         }
+
         li {
-            margin: 0.5em 0;
+            margin: 0.8em 0;
         }
+
         a {
             text-decoration: none;
-            color: #007BFF;
+            color: #4CAF50;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.2s ease;
         }
+
         a:hover {
-            text-decoration: underline;
+            color: #333;
+            transform: translateX(5px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                margin: 1em;
+                padding: 1em;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
         }
     </style>
 </head>
@@ -48,26 +91,26 @@
 <section>
     <h2>Supervised Learning</h2>
     <ul>
-        <li><a href="./pages/C1_W1_Lab01_Python_Jupyter_Soln.html">Python and Jupyter Basics</a></li>
-        <li><a href="./pages/C1_W1_Lab03_Model_Representation_Soln.html">Model Representation</a></li>
-        <li><a href="./pages/C1_W1_Lab04_Cost_function_Soln.html">Cost Function</a></li>
-        <li><a href="./pages/C1_W1_Lab05_Gradient_Descent_Soln.html">Gradient Descent</a></li>
-        <li><a href="./pages/C1_W2_Lab01_Python_Numpy_Vectorization_Soln.html">Numpy and Vectorization</a></li>
-        <li><a href="./pages/C1_W2_Lab02_Multiple_Variable_Soln.html">Multiple Variable Regression</a></li>
-        <li><a href="./pages/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.html">Feature Scaling and Learning Rate</a></li>
-        <li><a href="./pages/C1_W2_Lab04_FeatEng_PolyReg_Soln.html">Polynomial Regression and Feature Engineering</a></li>
-        <li><a href="./pages/C1_W2_Lab05_Sklearn_GD_Soln.html">Scikit-Learn and Gradient Descent</a></li>
-        <li><a href="./pages/C1_W2_Linear_Regression.html">Linear Regression Summary</a></li>
-        <li><a href="./pages/C1_W3_Lab01_Classification_Soln.html">Introduction to Classification</a></li>
-        <li><a href="./pages/C1_W3_Lab02_Sigmoid_function_Soln.html">Sigmoid Function</a></li>
-        <li><a href="./pages/C1_W3_Lab03_Decision_Boundary_Soln.html">Decision Boundary</a></li>
-        <li><a href="./pages/C1_W3_Lab04_LogisticLoss_Soln.html">Logistic Loss</a></li>
-        <li><a href="./pages/C1_W3_Lab05_Cost_Function_Soln.html">Cost Function in Logistic Regression</a></li>
-        <li><a href="./pages/C1_W3_Lab06_Gradient_Descent_Soln.html">Gradient Descent for Logistic Regression</a></li>
-        <li><a href="./pages/C1_W3_Lab07_Scikit_Learn_Soln.html">Scikit-Learn for Logistic Regression</a></li>
-        <li><a href="./pages/C1_W3_Lab08_Overfitting_Soln.html">Overfitting</a></li>
-        <li><a href="./pages/C1_W3_Lab09_Regularization_Soln.html">Regularization</a></li>
-        <li><a href="./pages/C1_W3_Logistic_Regression.html">Logistic Regression Summary</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 1. Introduction to Machine Learning/C1_W1_Lab01_Python_Jupyter_Soln.html">Python and Jupyter Basics</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 1. Introduction to Machine Learning/C1_W1_Lab03_Model_Representation_Soln.html">Model Representation</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 1. Introduction to Machine Learning/C1_W1_Lab04_Cost_function_Soln.html">Cost Function</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 1. Introduction to Machine Learning/C1_W1_Lab05_Gradient_Descent_Soln.html">Gradient Descent</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 2. Regression with multiple input variables/C1_W2_Lab01_Python_Numpy_Vectorization_Soln.html">Numpy and Vectorization</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 2. Regression with multiple input variables/C1_W2_Lab02_Multiple_Variable_Soln.html">Multiple Variable Regression</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 2. Regression with multiple input variables/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.html">Feature Scaling and Learning Rate</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 2. Regression with multiple input variables/C1_W2_Lab04_FeatEng_PolyReg_Soln.html">Polynomial Regression and Feature Engineering</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 2. Regression with multiple input variables/C1_W2_Lab05_Sklearn_GD_Soln.html">Scikit-Learn and Gradient Descent</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 2. Regression with multiple input variables/C1_W2_Linear_Regression.html">Linear Regression Summary</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab01_Classification_Soln.html">Introduction to Classification</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab02_Sigmoid_function_Soln.html">Sigmoid Function</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab03_Decision_Boundary_Soln.html">Decision Boundary</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab04_LogisticLoss_Soln.html">Logistic Loss</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab05_Cost_Function_Soln.html">Cost Function in Logistic Regression</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab06_Gradient_Descent_Soln.html">Gradient Descent for Logistic Regression</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. ClassificationC1_W3_Lab07_Scikit_Learn_Soln.html">Scikit-Learn for Logistic Regression</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab08_Overfitting_Soln.html">Overfitting</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Lab09_Regularization_Soln.html">Regularization</a></li>
+        <li><a href="./1_Supervised_Machine_Learning/Week 3. Classification/C1_W3_Logistic_Regression.html">Logistic Regression Summary</a></li>
     </ul>
 </section>
 
